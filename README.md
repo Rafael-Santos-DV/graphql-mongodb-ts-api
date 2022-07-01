@@ -1,5 +1,5 @@
 <div align="center">
-  <p>API GRAPHQL IN TYPESCRIPT</p>
+  <p>GRAPHQL API IN TYPESCRIPT</p>
 </div>
 
 install dependencies
@@ -16,9 +16,24 @@ start server
 
 Acesse: [localhost:4000](http:localhost:4000)
 
-```graphql
-# querys
+Tecnologias:
 
+<div>
+  <img src="https://img.shields.io/badge/-GRAPHQL-%23E10098" alt="Graphql" />
+</div>
+<div>
+  <img src="https://img.shields.io/badge/-MONGODB-%234DB33D" alt="Mongodb" />
+</div>
+<div>
+  <img src="https://img.shields.io/badge/-TYPESCRIPT-%23007acc" alt="Typescript" />
+</div>
+<div>
+  <img src="https://img.shields.io/badge/-NODE.JS-%2368A063" alt="Node">
+</div>
+
+Queries
+
+```graphql
 # unique user
 query User {
   showUser(id: "userid") {
@@ -40,9 +55,11 @@ query User {
     lastName # String
   }
 }
+```
 
-# mutation
+Mutation
 
+```graphql
 # example
 mutation NewUser {
   createUser(
